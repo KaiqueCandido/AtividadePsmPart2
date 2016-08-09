@@ -1,0 +1,10 @@
+servidor\web\pdm\entity\Login.class
+servidor\web\pdm\entity\Mensagem_.class
+org\netbeans\rest\application\config\ApplicationConfig.class
+servidor\web\pdm\entity\Pessoa.class
+servidor\web\pdm\entity\Login_.class
+servidor\web\pdm\entity\Mensagem.class
+servidor\web\pdm\entity\Pessoa_.class
+servidor\web\pdm\main\Main.class
+servidor\web\pdm\Server.class
+servidor\web\pdm\dao\PessoaDao.class

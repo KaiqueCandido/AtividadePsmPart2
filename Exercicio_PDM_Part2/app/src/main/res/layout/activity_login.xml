@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kaiqu.exercicio_pdm_part2.Login"
+    android:background="#55678f"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IFPBGroupChat"
+            android:id="@+id/textView"
+            android:textSize="43dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/imageView"
+            android:layout_weight="29.03"
+            android:layout_marginRight="85dp"
+            android:layout_marginLeft="85dp"
+            android:background="@mipmap/avatar" />
+
+        <TextView
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="paulinhogogo"
+            android:id="@+id/textView2"
+            android:textSize="25dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editSenha"
+            android:textIsSelectable="false"
+            android:textSize="20dp"
+            android:textColorHint="#ffffff"
+            android:password="true"
+            android:selectAllOnFocus="true"
+            android:backgroundTint="#979baf"
+            android:textAlignment="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/screen_border_edittext"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="DIGITE SUA SENHA"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ACESSAR"
+            android:id="@+id/btnAcessar"
+
+            android:background="@drawable/screen_border_button"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:backgroundTint="#525c8c"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:onClick="btnAceesar" />
+    </LinearLayout>
+
+</LinearLayout>
